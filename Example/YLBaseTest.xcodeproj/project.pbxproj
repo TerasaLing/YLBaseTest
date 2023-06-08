@@ -22,6 +22,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		84E0DFB12A31CAB3007DA32C /* HYLTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E0DFB02A31CAB3007DA32C /* HYLTestController.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		C11BDDC488CE8D0C3C90A4BF /* Pods_YLBaseTest_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C331BE0701A2B4ABAF0848C /* Pods_YLBaseTest_Example.framework */; };
 /* End PBXBuildFile section */
@@ -62,6 +63,8 @@
 		6D26356508740F99D12A9944 /* Pods-YLBaseTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBaseTest_Tests.release.xcconfig"; path = "Target Support Files/Pods-YLBaseTest_Tests/Pods-YLBaseTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		724C8B97A2A004AF9CA63B49 /* Pods-YLBaseTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBaseTest_Example.debug.xcconfig"; path = "Target Support Files/Pods-YLBaseTest_Example/Pods-YLBaseTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		84E0DFAF2A31CAB3007DA32C /* HYLTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HYLTestController.h; path = ../../YLBaseTest/Classes/HYLTestController.h; sourceTree = "<group>"; };
+		84E0DFB02A31CAB3007DA32C /* HYLTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HYLTestController.m; path = ../../YLBaseTest/Classes/HYLTestController.m; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C331BE0701A2B4ABAF0848C /* Pods_YLBaseTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLBaseTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAAC42A08DFA10D031C9BC04 /* Pods-YLBaseTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBaseTest_Example.release.xcconfig"; path = "Target Support Files/Pods-YLBaseTest_Example/Pods-YLBaseTest_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -140,6 +143,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				84E0DFAF2A31CAB3007DA32C /* HYLTestController.h */,
+				84E0DFB02A31CAB3007DA32C /* HYLTestController.m */,
 			);
 			name = "Example for YLBaseTest";
 			path = YLBaseTest;
@@ -367,6 +372,7 @@
 				6003F59E195388D20070C39A /* HYLAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* HYLViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				84E0DFB12A31CAB3007DA32C /* HYLTestController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
