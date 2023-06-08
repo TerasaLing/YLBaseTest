@@ -1,0 +1,16 @@
+PODS:
+  - YLBaseTest (0.1.0)
+
+DEPENDENCIES:
+  - YLBaseTest (from `../`)
+
+EXTERNAL SOURCES:
+  YLBaseTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YLBaseTest: 936ba3996f27485abb4d08e78d54ea958b749d4f
+
+PODFILE CHECKSUM: 9dda6620792d88b8596c7daedecbd66680e72e7d
+
+COCOAPODS: 1.12.1

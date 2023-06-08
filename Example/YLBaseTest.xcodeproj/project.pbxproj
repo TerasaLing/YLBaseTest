@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		490005B72049B58205CE9711 /* Pods_YLBaseTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLBaseTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F344C15FA4D7B0B9BAC7FC3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4F344C15FA4D7B0B9BAC7FC3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YLBaseTest_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLBaseTest_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,8 +65,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C331BE0701A2B4ABAF0848C /* Pods_YLBaseTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLBaseTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAAC42A08DFA10D031C9BC04 /* Pods-YLBaseTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBaseTest_Example.release.xcconfig"; path = "Target Support Files/Pods-YLBaseTest_Example/Pods-YLBaseTest_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DF3BC7022C2CB4E9604D5A40 /* YLBaseTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YLBaseTest.podspec; path = ../YLBaseTest.podspec; sourceTree = "<group>"; };
-		F54583F98AC2F4F2A1DE5348 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DF3BC7022C2CB4E9604D5A40 /* YLBaseTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YLBaseTest.podspec; path = ../YLBaseTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F54583F98AC2F4F2A1DE5348 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				61FB3756A635DC06C34E92C9 /* Pods-YLBaseTest_Tests.debug.xcconfig */,
 				6D26356508740F99D12A9944 /* Pods-YLBaseTest_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

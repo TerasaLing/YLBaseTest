@@ -1,0 +1,6 @@
+framework module YLBaseTest {
+  umbrella header "YLBaseTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

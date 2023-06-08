@@ -1,0 +1,6 @@
+framework module Pods_YLBaseTest_Tests {
+  umbrella header "Pods-YLBaseTest_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
