@@ -9,7 +9,7 @@
 #import "HYLTestController.h"
 
 @implementation HYLTestController
--(void)testPrint{
++(void)testPrint{
     NSLog(@"我的第一个pod项目打印测试");
 }
 @end
