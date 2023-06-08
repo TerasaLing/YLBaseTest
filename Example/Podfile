@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'YLBaseTest_Example' do
+  pod 'YLBaseTest', :path => '../'
+
+  target 'YLBaseTest_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
