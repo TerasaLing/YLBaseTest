@@ -7,11 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <GTSDK/GeTuiSdk.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface HYLTestController : NSObject
+//测试方法
 +(void)testPrint;
+//注册sdk
++ (void)registerSDK:(NSString *)appid appKey:(NSString *)appKey appSecret:(NSString *)appSecret delegate:(id<GeTuiSdkDelegate>)delegate launchingOptions:(NSDictionary * __nullable)launchOptions;
+
+//获取CID
++ (NSString *)getSDKClientId;
+
 @end
 
 NS_ASSUME_NONNULL_END

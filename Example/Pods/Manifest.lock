@@ -1,16 +1,32 @@
 PODS:
-  - YLBaseTest (0.1.0)
+  - GTCommonSDK (3.0.4.0):
+    - ZXSDK
+  - GTSDK (3.0.0.0):
+    - GTCommonSDK (>= 3.0.3.0)
+  - YLBaseTest (0.1.2):
+    - GTCommonSDK (>= 3.0.3.0)
+    - GTSDK (~> 3.0.0.0)
+  - ZXSDK (3.2.4)
 
 DEPENDENCIES:
   - YLBaseTest (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - GTCommonSDK
+    - GTSDK
+    - ZXSDK
 
 EXTERNAL SOURCES:
   YLBaseTest:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YLBaseTest: 936ba3996f27485abb4d08e78d54ea958b749d4f
+  GTCommonSDK: 88f22c2db467f2a117863d6070f3fcb8947658d1
+  GTSDK: 9ddb00161546cf5d5c03befb383d5928e9254f07
+  YLBaseTest: 55a71677b7cc095a7f77bc589eda30da657a1f22
+  ZXSDK: 145a89f90f11e18e4fe62fe43175a60ade342ba8
 
-PODFILE CHECKSUM: 9dda6620792d88b8596c7daedecbd66680e72e7d
+PODFILE CHECKSUM: 7e5688c7981cdf25c2d8b77eedfb57326aa939a7
 
 COCOAPODS: 1.12.1

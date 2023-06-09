@@ -1,4 +1,4 @@
-framework module Pods_YLBaseTest_Example {
+module Pods_YLBaseTest_Example {
   umbrella header "Pods-YLBaseTest_Example-umbrella.h"
 
   export *

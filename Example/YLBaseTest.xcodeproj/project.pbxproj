@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22E8296E28179E4095CF5E2F /* Pods_YLBaseTest_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 490005B72049B58205CE9711 /* Pods_YLBaseTest_Tests.framework */; };
+		2CCB82AFCF3662DAA2EE8DA1 /* libPods-YLBaseTest_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B04C7167855DDAFDCD7D0334 /* libPods-YLBaseTest_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -24,7 +24,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		84E0DFB12A31CAB3007DA32C /* HYLTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E0DFB02A31CAB3007DA32C /* HYLTestController.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		C11BDDC488CE8D0C3C90A4BF /* Pods_YLBaseTest_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C331BE0701A2B4ABAF0848C /* Pods_YLBaseTest_Example.framework */; };
+		B5C5509607E5EAB197932377 /* libPods-YLBaseTest_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 469A6A22797C66B70B14C0F5 /* libPods-YLBaseTest_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		490005B72049B58205CE9711 /* Pods_YLBaseTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLBaseTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		469A6A22797C66B70B14C0F5 /* libPods-YLBaseTest_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YLBaseTest_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F344C15FA4D7B0B9BAC7FC3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YLBaseTest_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLBaseTest_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -66,7 +66,7 @@
 		84E0DFAF2A31CAB3007DA32C /* HYLTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HYLTestController.h; path = ../../YLBaseTest/Classes/HYLTestController.h; sourceTree = "<group>"; };
 		84E0DFB02A31CAB3007DA32C /* HYLTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HYLTestController.m; path = ../../YLBaseTest/Classes/HYLTestController.m; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8C331BE0701A2B4ABAF0848C /* Pods_YLBaseTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLBaseTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04C7167855DDAFDCD7D0334 /* libPods-YLBaseTest_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YLBaseTest_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAAC42A08DFA10D031C9BC04 /* Pods-YLBaseTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBaseTest_Example.release.xcconfig"; path = "Target Support Files/Pods-YLBaseTest_Example/Pods-YLBaseTest_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DF3BC7022C2CB4E9604D5A40 /* YLBaseTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YLBaseTest.podspec; path = ../YLBaseTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F54583F98AC2F4F2A1DE5348 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				C11BDDC488CE8D0C3C90A4BF /* Pods_YLBaseTest_Example.framework in Frameworks */,
+				2CCB82AFCF3662DAA2EE8DA1 /* libPods-YLBaseTest_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +91,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				22E8296E28179E4095CF5E2F /* Pods_YLBaseTest_Tests.framework in Frameworks */,
+				B5C5509607E5EAB197932377 /* libPods-YLBaseTest_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,8 +126,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				8C331BE0701A2B4ABAF0848C /* Pods_YLBaseTest_Example.framework */,
-				490005B72049B58205CE9711 /* Pods_YLBaseTest_Tests.framework */,
+				B04C7167855DDAFDCD7D0334 /* libPods-YLBaseTest_Example.a */,
+				469A6A22797C66B70B14C0F5 /* libPods-YLBaseTest_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -212,7 +212,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				42DB158778EB2DC3B72CA51E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +251,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = TerasaLing;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 29DEX85WKV;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -300,24 +302,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		42DB158778EB2DC3B72CA51E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YLBaseTest_Example/Pods-YLBaseTest_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/YLBaseTest/YLBaseTest.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YLBaseTest.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YLBaseTest_Example/Pods-YLBaseTest_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5D502F7029B239AFD334ACF0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -500,6 +484,7 @@
 			baseConfigurationReference = 724C8B97A2A004AF9CA63B49 /* Pods-YLBaseTest_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 29DEX85WKV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YLBaseTest/YLBaseTest-Prefix.pch";
 				INFOPLIST_FILE = "YLBaseTest/YLBaseTest-Info.plist";
@@ -516,6 +501,7 @@
 			baseConfigurationReference = BAAC42A08DFA10D031C9BC04 /* Pods-YLBaseTest_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 29DEX85WKV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YLBaseTest/YLBaseTest-Prefix.pch";
 				INFOPLIST_FILE = "YLBaseTest/YLBaseTest-Info.plist";

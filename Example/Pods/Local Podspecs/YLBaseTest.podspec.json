@@ -1,7 +1,7 @@
 {
   "name": "YLBaseTest",
-  "version": "0.1.0",
-  "summary": "A short description of YLBaseTest.",
+  "version": "0.1.2",
+  "summary": "这是一个测试pod",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/TerasaLing/YLBaseTest",
   "license": {
@@ -13,10 +13,18 @@
   },
   "source": {
     "git": "https://github.com/TerasaLing/YLBaseTest.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "YLBaseTest/Classes/**/*"
+  "source_files": "YLBaseTest/Classes/**/*",
+  "dependencies": {
+    "GTCommonSDK": [
+      ">= 3.0.3.0"
+    ],
+    "GTSDK": [
+      "~> 3.0.0.0"
+    ]
+  }
 }
