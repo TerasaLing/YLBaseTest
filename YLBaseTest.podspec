@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YLBaseTest'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = '这是一个测试pod'
 
 # This description is used to generate tags and improve search results.
@@ -28,14 +28,15 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/TerasaLing/YLBaseTest.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
 
-  s.source_files = 'YLBaseTest/Classes/**/*'
+#  s.source_files = 'YLBaseTest/Classes/**/*'
   
   # s.resource_bundles = {
   #   'YLBaseTest' => ['YLBaseTest/Assets/*.png']
   # }
-#  s.ios.vendored_frameworks = 'GTSDK.xcframework'
+  s.static_framework = true
+  s.ios.vendored_frameworks = 'YLBaseTest.xcframework'
 #  s.ios.vendored_frameworks = 'GTCommonSDK.xcframework'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
