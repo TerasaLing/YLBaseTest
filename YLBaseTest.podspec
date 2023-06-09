@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YLBaseTest'
-  s.version          = '0.1.7'
+  s.version          = '0.1.8'
   s.summary          = '这是一个测试pod'
 
 # This description is used to generate tags and improve search results.
@@ -35,7 +35,7 @@ TODO: Add long description of the pod here.
   # s.resource_bundles = {
   #   'YLBaseTest' => ['YLBaseTest/Assets/*.png']
   # }
-  s.static_framework = true
+#  s.static_framework = true
 #  s.ios.vendored_frameworks = 'YLBaseTest.xcframework'
 #  s.ios.vendored_frameworks = 'GTCommonSDK.xcframework'
   # s.public_header_files = 'Pod/Classes/**/*.h'
@@ -43,9 +43,9 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'GTCommonSDK', '>= 3.0.3.0'
   s.dependency 'GTSDK', '~> 3.0.0.0'
-  s.requires_arc = true
-  # 因为依赖的静态库不支持模拟器arm64架构，设置当前这个pod不支持arm64， 以避免pod lib lint无法通过
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  # 单纯设置pod_target_xcconfig只是设置当前这个pod不支持arm64， 这里把这些pod的上层设置为不支持arm64，兼容这种问题
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+#  s.requires_arc = true
+#  # 因为依赖的静态库不支持模拟器arm64架构，设置当前这个pod不支持arm64， 以避免pod lib lint无法通过
+#  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+#  # 单纯设置pod_target_xcconfig只是设置当前这个pod不支持arm64， 这里把这些pod的上层设置为不支持arm64，兼容这种问题
+#  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
