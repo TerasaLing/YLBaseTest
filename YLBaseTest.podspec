@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YLBaseTest'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = '这是一个测试pod'
 
 # This description is used to generate tags and improve search results.
@@ -35,11 +35,13 @@ TODO: Add long description of the pod here.
   # s.resource_bundles = {
   #   'YLBaseTest' => ['YLBaseTest/Assets/*.png']
   # }
-
+  s.ios.vendored_frameworks = 'GTSDK.xcframework'
+  s.ios.vendored_frameworks = 'GTCommonSDK.xcframework'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'GTCommonSDK', '>= 3.0.3.0'
   s.dependency 'GTSDK', '~> 3.0.0.0'
+  s.requires_arc = true
   s.pod_target_xcconfig = {'VALID_ARCHS' => 'x86_64 armv7 arm64'}
 end
